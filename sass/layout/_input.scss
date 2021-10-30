@@ -1,0 +1,19 @@
+.new-task {
+  &__instructions {
+    margin: 2rem 0;
+  }
+
+  &__content {
+    padding: 1rem 2rem;
+    width: 30%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.5rem transparent solid;
+
+    &:focus {
+      outline: none;
+      border-bottom: 0.5rem $blue solid;
+    }
+  }
+}

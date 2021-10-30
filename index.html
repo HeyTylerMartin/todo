@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/@fortawesome/fontawesome-free/css/all.css"
+    />
+    <title>ADDo</title>
+  </head>
+  <body>
+    <div class="app-container app-container__top">
+      <div class="header">
+        <h1>ADDo</h1>
+      </div>
+      <div class="new-task">
+        <p class="new-task__instructions">
+          Enter a task below, then press <strong>ENTER</strong>.
+        </p>
+        <input
+          type="text"
+          placeholder="New task..."
+          class="new-task__content"
+          autofocus
+        />
+      </div>
+    </div>
+    <div class="app-container app-container__bottom">
+      <div class="task-archive">
+        <div class="btn task-archive__clear-all">Clear all</div>
+        <div class="btn task-archive__clear-completed">Clear complete</div>
+        <ul class="task-archive__list"></ul>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="src/script.js"></script>
+  </body>
+</html>

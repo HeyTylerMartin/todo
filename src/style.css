@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
+body {
+  background-color: #fffad5; }
+
+body {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Ubuntu", sans-serif; }
+
+h1 {
+  color: #105b63;
+  margin-bottom: 2rem; }
+
+.app-container {
+  margin: 5rem;
+  padding: 5rem;
+  background-color: #ffd34e;
+  border-radius: 4px; }
+
+.new-task__instructions {
+  margin: 2rem 0; }
+
+.new-task__content {
+  padding: 1rem 2rem;
+  width: 30%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 0.5rem transparent solid; }
+  .new-task__content:focus {
+    outline: none;
+    border-bottom: 0.5rem #105b63 solid; }
+
+.task-archive__list {
+  list-style: none; }
+
+.task-archive__task {
+  display: flex;
+  padding: 2rem 3rem;
+  justify-content: space-between;
+  background-color: #fffad5;
+  border-radius: 5px;
+  margin-bottom: 1rem; }
+
+.task-archive__content {
+  padding: 0 2rem;
+  color: inherit;
+  flex: 1; }
+
+.task-archive__checkmark {
+  padding: 0 2rem; }
+
+.task-archive__delete {
+  float: right;
+  color: red;
+  cursor: pointer;
+  transform: scale(0.7);
+  transition: scale, 0.5s; }
+  .task-archive__delete:hover {
+    transform: scale(1.5); }
+
+.task-archive__complete {
+  color: #cecece; }
+
+.btn {
+  display: inline-block;
+  background-color: #105b63;
+  color: white;
+  padding: 1rem 4rem;
+  border-radius: 3px;
+  text-transform: uppercase;
+  margin: 2rem;
+  cursor: pointer; }

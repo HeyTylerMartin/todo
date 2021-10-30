@@ -1,0 +1,39 @@
+.task-archive {
+  &__list {
+    list-style: none;
+  }
+  &__task {
+    display: flex;
+    padding: 2rem 3rem;
+    justify-content: space-between;
+    background-color: $cream;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  &__content {
+    padding: 0 2rem;
+    color: inherit;
+    flex: 1;
+  }
+
+  &__checkmark {
+    padding: 0 2rem;
+  }
+
+  &__delete {
+    float: right;
+    color: red;
+    cursor: pointer;
+    transform: scale(0.7);
+    transition: scale, 0.5s;
+    // padding: 2rem;
+
+    &:hover {
+      transform: scale(1.5);
+    }
+  }
+
+  &__complete {
+    color: rgb(206, 206, 206);
+  }
+}
